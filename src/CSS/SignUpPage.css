@@ -1,0 +1,94 @@
+.SignUpPage {
+    display: flex;
+    height: 100vh;
+    background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .SignUpInnerBox{
+    background-color: white;
+    background-image: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%); 
+    /* background-image: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);  */
+    width: 30%;
+  padding: 20px;
+  border-radius: 20px;
+
+}
+
+/* Form group container */
+.form-group {
+  margin-bottom: 15px;
+}
+
+/* Form input labels */
+.form-group h3 {
+  margin-left: 13%;
+  text-align: start;
+  font-size: 16px;
+  margin-bottom: 5px;
+  font-weight: 500;
+  color: #666666;
+}
+
+/* Input fields */
+.form-group input {
+  width: 70%;
+  padding: 10px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  font-size: 14px;
+  outline: none;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Focused input fields */
+.form-group input.focused {
+  border-color: #66afe9;
+  box-shadow: 0px 0px 5px rgba(102, 175, 233, 0.5);
+}
+
+/* Error state for input fields */
+.form-group input.error {
+  border-color: #ff6b6b;
+}
+
+/* Error message styling */
+.error-message {
+  color: #ff6b6b;
+  font-size: 12px;
+  margin-top: 5px;
+  margin-left: 13%;
+  text-align: start;
+}
+
+/* Save button */
+.form-save-button {
+  width: 60%;
+  padding: 12px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Save button hover state */
+.form-save-button:hover {
+    background-color: #0056b3;
+}
+
+/* Additional styles for smooth appearance */
+.form-save-button:active {
+  background-color: #3e8e41;
+  transform: translateY(2px);
+}
+
+.form-save-button:focus {
+  outline: none;
+  box-shadow: 0px 0px 5px rgba(102, 175, 233, 0.5);
+}

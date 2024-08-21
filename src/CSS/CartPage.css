@@ -1,0 +1,63 @@
+.CartPage{
+    /* background-image: url("/src/images/CartPageBG.png"); */
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: space-evenly;
+    /* height: 100%; */
+    /* width: 100%; */
+}
+
+.CartPageSection1{
+    padding: 30px;
+    padding-top: 3px;
+    width: 73%;
+    margin: 20px;
+    /* height: 200px; */
+    background-color: white;
+    text-align: start;
+}
+.CartProductTile{
+    justify-content: space-between;
+    display: flex;
+    padding-bottom: 40px;
+}
+.Img_Details{
+    display: flex;
+}
+.CartProductTileImg{
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+}
+
+.Img_Details div{
+    padding-left: 30px;
+}
+.CartPageSection2{
+    margin: 20px;
+    padding: 15px;
+    padding-top: 0;
+    height: 120px;
+    background-color: white;
+}
+
+.CartPageSection2 button{
+    /* margin-top: 20px; */
+    padding: 10px 20px; 
+    font-weight: 500;
+    background-color: #f7ca00;
+    border: 0;
+    border-radius: 23px;
+    cursor: pointer; 
+}
+.QuantityUpdation{
+    margin-top: 0;
+    margin-left: 70px;
+}
+.CartItemDesc{
+    font-weight: 400;
+}
+.CartItemDescSize{
+    width: 700px;
+}

@@ -1,0 +1,60 @@
+.SinglePageStyle {
+  text-align: start;
+}
+.SinglePageStyle h2 {
+  margin-left: 20px;
+}
+.SingleProductPage {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.ProductImage {
+  width: 350px;
+  height: 350px;
+  margin-right: 20px;
+  padding: 3%;
+}
+
+.DetailSection1 {
+  width: 100%;
+  max-width: 690px;
+  /* background-color: aquamarine; */
+  overflow: hidden;
+}
+
+.Title,
+.Price {
+  text-align: start;
+  margin-bottom: 10px;
+}
+
+.Desc {
+  font-size: larger;
+  font-weight: 400;
+  text-align: start;
+  white-space: normal;
+  overflow: visible;
+  word-wrap: break-word;
+}
+
+.AddToCartButton {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-weight: 500;
+  background-color: #f7ca00;
+  border: 0;
+  border-radius: 23px;
+  float: left;
+  cursor: pointer;
+}
+.FeaturedItems {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(285px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  justify-content: start;
+  padding-right: 300px;
+}

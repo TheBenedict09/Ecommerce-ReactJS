@@ -1,0 +1,88 @@
+nav {
+  width: auto;
+  height: 60px;
+  background-color: #131921;
+  display: flex;
+  justify-content: space-between;
+  color: wheat;
+  padding-left: 40px;
+  padding-right: 40px;
+  align-items: center;
+}
+
+nav button {
+  font-size: large;
+  background-color: transparent;
+  border: 0;
+  color: wheat;
+  cursor: pointer;
+}
+.HomePage {
+  min-height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  justify-content: center;
+  align-items: center;
+  text-align: start;
+}
+
+.CategoryTileContainer {
+  gap: 20px;
+  padding: 50px;
+  display: flex;
+}
+.CategoryTiles {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 10px;
+  padding: 20px;
+  justify-items: center;
+}
+
+.CategoryTile {
+  width: 100%;
+  color: white;
+  height: 100px;
+  /* background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%); */
+  background: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0.15) 0%,
+      rgba(0, 0, 0, 0.15) 100%
+    ),
+    radial-gradient(
+        at top center,
+        rgba(255, 255, 255, 0.4) 0%,
+        rgba(0, 0, 0, 0.4) 120%
+      )
+      #989898;
+  background-blend-mode: multiply, multiply;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  border-radius: 30px;
+  font-size: 40px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.CategoryTile:hover {
+  background-color: rgba(238, 174, 202, 0.8);
+}
+
+.HomePage h1 {
+  margin-left: 50px;
+}
+
+.ProductGridHomepage {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(285px, 4fr)); /* 4 columns */
+  gap: 20px;
+  padding: 20px;
+  justify-content: start; 
+  padding-right: 300px;
+}

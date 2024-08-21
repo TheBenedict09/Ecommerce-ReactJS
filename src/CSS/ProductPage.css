@@ -1,0 +1,61 @@
+.ProductTitle{
+    text-align: start;
+    margin-left: 20px;
+    font-size: 70px;
+    margin-top: 0%;
+}
+.ProductGrid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(200px, 1fr)); /* 4 columns */
+  gap: 20px; /* Space between grid items */
+  padding: 20px; /* Padding around the grid */
+  justify-content: start; /* Align items to the start, leaving space on the right */
+  padding-right: 300px;
+}
+
+.ProductTile{
+    margin: 20px;
+    width: 210px;
+    height: 220px;
+    background-image: url("C:\Users\Ayush Benedict Singh\Celebal Technologies\ecommerce\src\images\ProductTileColor.png");
+    background-size: cover; 
+    background-repeat: no-repeat;
+    border-radius: 13px;
+    margin-bottom: 100px;
+    cursor: pointer;
+}
+
+.ProductImg{
+    border-radius: 23px;
+    padding: 15px;
+    width: 180px;
+    height: 190px;
+}
+
+.ProductPrice{
+    font-weight: bold;
+    text-align: start;
+
+    font-size: large;
+    margin-bottom: 0;
+}
+
+.ProductDesc {
+    margin-top: 0;
+    text-align: start;
+    width: auto;
+    overflow: hidden;
+    font-size: medium;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    white-space: normal;
+    text-overflow: ellipsis;
+}
+.LoadingContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    width: 430%;
+  }
