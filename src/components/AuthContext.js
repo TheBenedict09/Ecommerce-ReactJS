@@ -8,6 +8,7 @@ export function AuthProvider({ children }) {
   const login = () => setIsAuthenticated(true);
   const logout = () => setIsAuthenticated(false);
   console.log("Hi");
+  
   return (
     <AuthContext.Provider value={{ isAuthenticated, login, logout }}>
       {children}
